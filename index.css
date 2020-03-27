@@ -14,7 +14,7 @@ html
 
 .logo
 {
-	width: 50%;
+	width: 75%;
 	background-color: white;
 	display: flex;
 	margin-left: auto;
@@ -24,11 +24,12 @@ html
 img.logo
 {
 	width: 50%;
+	max-height: width/9;
 }
 
 .body
 {
-	width: 50%;
+	width: 75%;
 	min-height: 100%;
 	background-color: white;
 	display: flex;
