@@ -2,7 +2,6 @@ html
 {
 	height: 100%;
 	background-color: #016938;
-	text-decoration: none;
 }
 
 .header 
@@ -99,18 +98,17 @@ img.logo
 	border: 0;
 	padding: 15px;
 	font-size: 14px;
+}
 
+.fakeButton a
+{
+	color: white;
 	text-decoration: none;
 }
 
 .fakeButton:hover
 {
 	cursor: pointer;
-	color: white;
-}
-
-.fakeButton:visited
-{
 	color: white;
 }
 

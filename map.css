@@ -1,4 +1,4 @@
-html
+html, body
 {
 	height: 100%;
 	background-color: #016938;
@@ -8,53 +8,116 @@ html
 {
 	background-color: #016938;
 	width: 100%;
+	height: 0%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .toolbar
 {
-	width: 75%;
+	height: 10vh;
+	width: 85%;
 	background-color: white;
 	display: flex;
+	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .search
 {
-	
+	height: 75%;
+	border: none;
+}
+
+.searchBar 
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	border: none;
+}
+
+.searchTerm 
+{
+	width: 100%;
+	height: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 4vh;
+	border: none;
 }
 
 .locationTypes
 {
-	
+	height: 25%;
 }
 
+#types
+{
+	text-align-last: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 2vh;
+	border: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+body 
+{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
 .body
 {
-	width: 75%;
-	min-height: 100%;
+	width: 85%;
+	height: 55vh;
 	background-color: white;
-	display: flex;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .mapouter
 {
-	display: flex;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+	border: none;
 	text-align: right;
-	width: 75%;
-	height: 1000px;
+	height: 100%;
 }
 
 .gmap_canvas 
 {
-	background: none!important;
-	width: 75%;
-	height: 1000px;
+	height: 100%;
+}
+
+.location
+{
+	height: 30vh;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+.locationInfo
+{
+	background-color: red;
+	width: 100%;
+}
+
+.locationPic
+{
+	background-color: blue;
+	width: 100%;
+}
+
+.footer 
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 7.5vh;
+	background-color: yellow;
+	color: blue;
+	text-align: center;
 }
