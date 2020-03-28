@@ -1,0 +1,60 @@
+html
+{
+	height: 100%;
+	background-color: #016938;
+}
+
+.header 
+{
+	background-color: #016938;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.toolbar
+{
+	width: 75%;
+	background-color: white;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search
+{
+	
+}
+
+.locationTypes
+{
+	
+}
+
+.body
+{
+	width: 75%;
+	min-height: 100%;
+	background-color: white;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mapouter
+{
+	display: flex;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	width: 75%;
+	height: 1000px;
+}
+
+.gmap_canvas 
+{
+	background: none!important;
+	width: 75%;
+	height: 1000px;
+}
