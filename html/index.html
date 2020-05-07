@@ -17,8 +17,8 @@
 				<meta name="google-signin-client_id" content="708128413386-0vue4vv1bqfclloa618nbjfem37kh07m.apps.googleusercontent.com">
 				<script>
 					function signOut() {
-						var auth2 = gapi.auth2.getAuthInstance();    <---- sign out button, but if we want them to sign out of
-						auth2.signOut().then(function () {                 Google too lmk I can create that function easily
+						var auth2 = gapi.auth2.getAuthInstance();
+						auth2.signOut().then(function () {
 							console.log('User signed out.');
 						});
 					}
